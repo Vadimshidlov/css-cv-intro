@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <title>My-new-cv-deploy</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar">
+        <a class="nav-element" href="#me">About me</a>
+        <!-- <a class="nav-element" href="#cont">Contacts</a> -->
+        <a class="nav-element" href="#skills">Skills</a>
+        <a class="nav-element" href="#code">Code</a>
+        <a class="nav-element" href="#Education">Education</a>
+        <a class="nav-element" href="#Language">Languages</a>
+      </nav>
+      <main>
+        <div class="info">
+          <div class="info-img">
+            <img src="/photo_2022-11-28_17-13-02.jpg" alt="avatar" />
+          </div>
+
+          <div class="info-text">
+            <h1>Vadim Shidlou</h1>
+            <p>Future Frontend Developer</p>
+          </div>
+        </div>
+        <div id="me" class="card-about">
+          <h2>About me</h2>
+          <p>
+            Hi everyone! My name is Vadim, I'm 25 years old. I was born and
+            raised in Vitebsk, Belarus. My speciality is automation engineer.
+            After studying, I went to work at a factory and after that I wanted
+            to change something in my life and I started learning JS. Initialy,
+            I studied on the learnjsdotcom site, then on Youtube videocurses.
+            After that I connected learning html, css and React.
+          </p>
+        </div>
+        <div class="card-skills">
+          <h2>Skills</h2>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Redux</li>
+          </ul>
+        </div>
+        <div class="card-code">
+          <h2 id="code">Code</h2>
+
+          <div class="code">
+            <p>
+              <code>
+                const fn = (strOne, strTwo) => { <br />
+                &nbsp&nbsp let resOne = strOne.split('') <br />
+                &nbsp&nbsp let resTwo = strTwo.split('') <br />
+                &nbsp&nbsp let res = [...resOne, ...resTwo] <br />
+                &nbsp&nbsp let ret = res.filter((el, i) => res.indexOf(el) ===
+                i)
+                <br />
+                &nbsp&nbsp return ret.sort().join('') <br />
+                } <br />
+
+                console.log(fn('xyaabbbccccdefww', 'xxxxyyyyabklmopq')) <br />
+              </code>
+            </p>
+          </div>
+        </div>
+
+        <div id="Education" class="card-education">
+          <h2>Education</h2>
+          <ul>
+            <li>Vitebsk State Technological University</li>
+            <li>
+              Courses:
+              <ul>
+                <li>Udemy, Bogdan Stashchuk - js + React</li>
+                <li>learnjavascript.ru</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+
+        <div id="Language" class="languages">
+          <h2>Languages</h2>
+          <ul>
+            <li>
+              English - A2 (I had been practicing English, when I studied in the
+              school and univercity)
+            </li>
+            <li>Russian - Native</li>
+          </ul>
+        </div>
+
+        <div class="box">
+          <div class="box-element">
+            <a href="https://t.me/iamrobertwolf">
+              <img
+                class="img-href"
+                src="./logo/icons8-telegram-app.svg"
+                alt="tg"
+              />
+            </a>
+          </div>
+          <div class="box-element">
+            <a href="https://instagram.com/dyadyavadyaaa">
+              <img
+                class="img-href"
+                src="./logo/icons8-instagram.svg"
+                alt="tg"
+              />
+            </a>
+          </div>
+          <div class="box-element">
+            <a href="https://vk.com/robertwolff">
+              <img
+                class="img-href"
+                src="./logo/icons8-vk-circled.svg"
+                alt="tg"
+              />
+            </a>
+          </div>
+          <div class="box-element">
+            <a href="https://vk.com/robertwolff">
+              <img class="img-href" src="./logo/icons8-discord.svg" alt="tg" />
+            </a>
+          </div>
+          <div class="box-element">
+            <a href="https://github.com/Vadimshidlov">
+              <img
+                class="img-href"
+                src="./logo/icons8-github.svg"
+                alt="tg"
+                width="50px"
+              />
+            </a>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="logo">
+          <p>© 2022 The Rolling Scopes</p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
